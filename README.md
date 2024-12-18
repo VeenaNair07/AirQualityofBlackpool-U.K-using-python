@@ -14,6 +14,7 @@ For each pollutant:
 
 2.Using linear interpolation, an AQI value is calculated.
 The formula for AQI calculation is:
+
             〖AQI〗_P=〖AQI〗_LOW+(C-C_LOW)/(C_HIGH-C_LOW )*(〖AQI〗_HIGH-〖AQI〗_LOW)
 
 
@@ -25,18 +26,22 @@ AQI_low and AQI_high: Corresponding AQI values for those breakpoints.
 Here are the breakpoints for some common pollutants (based on UK and US EPA standards):
 
 
-**PM2.5 (µg/m³)**
+	PM 2.5(µg/m³)	
 AQI	AQI Range	PM2.5 Concentration (µg/m³)
 0	0-50	      0.0 - 12.0
 1	51-100	      12.1 - 35.4
 2	101-150	      35.5 - 55.4
 3	151-200	      55.5 - 150.4
-**PM10 (µg/m³)**
+![image](https://github.com/user-attachments/assets/edbf157d-b2de-40ee-878b-1cae2e8ab927)
+
+	PM10 (µg/m³)	
 AQI	AQI Range	PM10 Concentration (µg/m³)
 0	0-50	       0 - 54
 1	51-100	       55 - 154
 2	101-150	       155 - 254
 3	151-200	       255 - 354
+![image](https://github.com/user-attachments/assets/6d73d56b-1b80-4fe8-ae39-91f4a6a63e65)
+
 Ozone, NO2, and other pollutants also have their own breakpoint tables.
 
 4.Create visualizations, such as line charts or heatmaps, to represent the AQI over time or across geographical regions.
