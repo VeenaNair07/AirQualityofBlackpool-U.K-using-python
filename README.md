@@ -46,3 +46,5 @@ Ozone, NO2, and other pollutants also have their own breakpoint tables.
 
 4.Create visualizations, such as line charts or heatmaps, to represent the AQI over time or across geographical regions.
 5.Compare the AQI metrics of the location with the recommended air quality metrics.I have verified the result with a airquality monitoring site IQAir(https://www.iqair.com/uk/england/blackpool)
+
+
